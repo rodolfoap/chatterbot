@@ -1,0 +1,15 @@
+- Requiere tener instalado 
+	* espeak, el sintetizador de voz
+	* gtk2-devel, para compilarlo
+- Es solo una idea, hay mucho por optimizar:
+	- No sé si el manejo de threads es correcto
+	- Los tipos de gtk deben cast-izarse
+	- La rotación de dibujos es altamente ineficiente, pero está así por simplicidad, obviamente, se debe corregir.
+	- El sintetizador no sincroniza los movimientos de labios, y es facil hacerlo, encadenando el movimiento de cada palabra con una librería de síntesis de voz... no tengo tiempo, por el momento.
+- El dbujo permanece al cambiar de escritorio...
+- Se pueden cambiar las 2 imágenes por lo que se quiera.
+- Como acepta STDIN se puede alimentar por un pipe para que esté hablando mientras reciba entradas de texto.
+- Permanece en silencio mientras STDIN != EOF.
+- GNU.
+
+<rodolfoap at gmail.com>
