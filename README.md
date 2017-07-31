@@ -17,4 +17,6 @@ A proof of concept on using C, GTK, glade, a voice syntesizer (espeak), to have 
 	- Keeps silent, while STDIN != EOF
 	- GNU.
 
+See video: https://github.com/rodolfoap/chatterbot/raw/master/img/chatterbot.avi
+
 RodolfoAP (http://ydor.org)
